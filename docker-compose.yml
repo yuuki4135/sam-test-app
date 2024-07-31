@@ -1,0 +1,9 @@
+services:
+  app:
+    build: ./
+    volumes:
+      - .:/home/developper/app
+      - ~/.aws/:/home/developper/.aws/
+    tty: true
+    privileged: true
+volumes:
