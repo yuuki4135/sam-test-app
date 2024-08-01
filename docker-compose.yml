@@ -6,4 +6,3 @@ services:
       - ~/.aws/:/home/developper/.aws/
     tty: true
     privileged: true
-volumes:
